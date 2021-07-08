@@ -18,12 +18,18 @@ h3 {
 
 .sample-section img {
   padding: 0.5em 0 0;
+  width: 100%;
 }
 
 #sample-block {
   width: 92%;
   max-width: 1000px;
   margin: 2em auto;
+}
+
+.content-visibility {
+  content-visibility: auto;
+  contain-intrinsic-size: 7000px;
 }
 
 .sample-section {
@@ -33,10 +39,8 @@ h3 {
   background-color: #d6d6d6;
 }
 
-.sample-section.content-visibility {
-  content-visibility: auto;
-  contain-intrinsic-size: 850px;
-}
+/* .sample-section.content-visibility {
+} */
 
 /*------------------------------------------------------
  PC
