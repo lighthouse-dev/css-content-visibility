@@ -1,0 +1,52 @@
+h1 {
+  text-align: center;
+  padding: 1em 0;
+  background: #bec9ff;
+}
+
+h2 {
+  padding: 40px 0 0;
+}
+
+h3 {
+  padding: 0 0 0.5em;
+}
+
+.sample-section > div {
+  padding: 2em;
+}
+
+.sample-section img {
+  padding: 0.5em 0 0;
+}
+
+#sample-block {
+  width: 92%;
+  max-width: 1000px;
+  margin: 2em auto;
+}
+
+.sample-section {
+  width: 100%;
+  max-width: 1000px;
+  margin: 1em auto;
+  background-color: #d6d6d6;
+}
+
+.sample-section.content-visibility {
+  content-visibility: auto;
+  contain-intrinsic-size: 850px;
+}
+
+/*------------------------------------------------------
+ PC
+------------------------------------------------------*/
+/* @media screen and (min-width: 920px) {
+  .sample-section .pc {
+    content-visibility: auto;
+  }
+
+  .sample-section .sp {
+    content-visibility: hidden;
+  }
+} */
